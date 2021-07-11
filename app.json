@@ -1,66 +1,69 @@
 {
-  "name": "Music Man",
-  "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "name": "Shikamaru-Music",
+  "logo": "https:https://telegra.ph/file/7fdd6b026eb89edcee4f5.jpg",
+  "description": "HALLO GESS GUA SHIKAMARU MUSIC GUA ADALAH BOT UNTUK MENENANGKAN HATI KALIAN GESS 
+  OWNER @shikamaru0aw 
+  GROUP SUPPORT @circlereplayyo
+  CH SUPPORT @galaunyababas.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/mrismanaziz/Music-Man",
+  "repository": "https://github.com/mrismanaziz/Music-Man"
   "stack": "heroku-20",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
    },
    {
-     "url": "heroku/python"
+     "url": "Shikamaru/Music"
    }   
   ],        
   "env": {
-    "SESSION_NAME": {
+    "SESSION_NAME": {BQAK88EVQI3INLrQGRLdNQn5uL2go61A2mWNtUZNTJZsjpt68nC0T5oWNorr31TnZ2Nw3Xq5MleOU2M9kqIIoYmJLBuIiVhrOnWndX3EOHsmGybFvs4wyDUBbft2ZEUfSpy9zvY-yMSqwzBcW7jjFb_rFVPmRBKJMeW2jNN-nEtloJMQHzUktspuI7L2jG7jtoL1aqTIQOhQLhxb4h63YnSYXBeiohR3cpkSBNoQ6KKLqhBV-4a6y6_kh5x1SWYJuLNhA7hISww8putoUJcO35uEkIcoXVBsg4Y1jjRZfgCnHN1rC-usiUTvlLG2GH0RyTMhXcw8SOP_zmh22KCqLVAxa6nAGQA
       "description": "Masukan String Session Pyrogram (P) untuk assistant yang naik ke VCG",
       "required": true
     },
-    "BOT_TOKEN": {
+    "BOT_TOKEN": {1815881048:AAFqNYuC5qfCXt5Kl4os9Ab0RFKxhl13Orw
       "description": "Masukan Bot Token dari @BotFather",
       "required": true
     },
-    "BOT_USERNAME": {
+    "BOT_USERNAME": {shikamaru_music_asistenBOT
       "description": "Username bot Anda tanpa @",
       "required": true
     },
-    "BOT_NAME": {
+    "BOT_NAME": {ダをꜱʜɪᴋᴀᴍᴀʀᴜ MUSIC
       "description": "Nama Bot MusicPlayer Anda.",
       "required": false,
-      "value": ""
+      "value": "ダをꜱʜɪᴋᴀᴍᴀʀᴜ MUSIC"
     },
-    "SUPPORT_GROUP": {
+    "SUPPORT_GROUP": {circlereplayyo
       "description": "Grup dukungan MusicPlayer Anda tanpa @ [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "SharingUserbot"
+      "value": "circlereplayyo"
     },
-    "PROJECT_NAME": {
+    "PROJECT_NAME": {Shikamaru-Music Project
       "description": "Nama proyek MusicPlayer Anda.",
       "required": false,
-      "value": "𝙈𝙐𝙎𝙄𝘾 𝙈𝘼𝙉"
+      "value": "Shikamaru-Music Project"
     },
-    "ASSISTANT_NAME": {
+    "ASSISTANT_NAME": {shikamaru_asisten
       "description": "Username Telegram asisten MusicPlayer Anda tanpa @",
       "required": true
     },
-    "ARQ_API_KEY": {
+    "ARQ_API_KEY": {UKIXOA-PUCOTK-JRLRLC-GNULGY-ARQ
       "description": "Ambil api ARQ dari bot telegram » t.me/ARQRobot atau @ARQRobot",
       "required": true,
-      "value": ""
+      "value": "UKIXOA-PUCOTK-JRLRLC-GNULGY-ARQ"
     },    
-    "BG_IMAGE": {
+    "BG_IMAGE": {https://telegra.ph/file/7fdd6b026eb89edcee4f5.jpg
       "description": "Custom Background Play Musik Gunakan Foto yang Transparant format .png / .jpg",
       "required": false,
-      "value": "https://telegra.ph/file/cd0b87484429704c7b935.png"
+      "value": "https://telegra.ph/file/7fdd6b026eb89edcee4f5.jpg"
     },     
-    "UPDATES_CHANNEL": {
+    "UPDATES_CHANNEL": {galaunyababas
       "description": "Updates Channel tanpa @ [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "Lunatic0de"
+      "value": "galaunyababas"
     },    
-    "API_ID": {
+    "API_ID": {6424882
       "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps atau t.me/scrapmanbot",
       "required": true
     },
@@ -69,19 +72,19 @@
       "required": false,
       "value": "ENABLE"
     },    
-    "API_HASH": {
+    "API_HASH": {d24c39a1b2bd191ae2c7be655d22ccd7
       "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps atau t.me/scrapmanbot",
       "required": true
     },
-    "SUDO_USERS": {
+    "SUDO_USERS": {1806286873
       "description": "Daftar User ID Telegram pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
       "required": true,
-      "value": "844432220"
+      "value": "1806286873"
     },
-    "DURATION_LIMIT": {
+    "DURATION_LIMIT": {130
       "description": "Batas durasi audio maksimal untuk download (hitungan menit)",
       "required": true,
-      "value": "30"
+      "value": "130"
     }
   }
 }
